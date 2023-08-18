@@ -3,7 +3,8 @@ import { Container, ListGroup } from 'react-bootstrap'
 
 const Education = () => {
   return (
-    <Container className='mt-5'>
+    <>
+    <Container className='mt-5 hero'>
     <h1 className='display-1 fw-bold text-center'>Education</h1>
     <Container className='d-flex flex-wrap justify-content-center align-items-center gap-3 mt-3'>
         <ListGroup as="ul">
@@ -34,6 +35,7 @@ const Education = () => {
         </ListGroup>
     </Container>
     </Container>
+    </>
   )
 }
 

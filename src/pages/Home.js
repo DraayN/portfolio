@@ -6,8 +6,8 @@ import ContactForm from '../components/ContactForm';
 
 const Home = () => {
   return (
-    <section>
-        <Container>
+    <>
+        <Container className='hero'>
             <Row className='hero d-flex justify-content-center align-items-center'>
                 <Col className='d-flex justify-content-center align-items-center'>
                 <Image src='/profile.jpg' style={{minWidth:300, maxWidth:500}}fluid rounded/>
@@ -64,7 +64,7 @@ const Home = () => {
                 </Col>
             </Row>
         </Container>
-    </section>
+    </>
   )
 }
 
